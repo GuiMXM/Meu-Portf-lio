@@ -24,7 +24,7 @@
 }
 
 .skew {
-    margin-top: 30vh;
+    margin-top: 300px;
     background-color: white;
     height: 400px;
     width:100%;
@@ -34,3 +34,40 @@
     opacity: .14;
 }
 
+
+.projCardWrapper{
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    gap: 35px;
+    margin-top: 150px;
+    width: 40vw;
+    overflow-x: scroll;
+}
+
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    min-width: 38vw;
+    min-height: 400px;
+    opacity: .8;
+    transition: .2s;
+    
+    
+}
+
+.projectCard:hover{
+    opacity: 1;
+}
+
+.projectCard p {
+    background: transparent;
+    color: black;
+    font-size: 1.5em;
+    font-weight:600;
+}
