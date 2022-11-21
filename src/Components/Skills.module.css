@@ -1,0 +1,37 @@
+
+
+.Skills {
+    display: flex;
+   
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 97vw;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+.Skills h1 {
+    font-size: 3em;
+    letter-spacing: 8px;
+    
+}
+.line{
+    width: 94vw;
+    border-bottom: .5px solid white;
+    opacity: 0.5;
+    z-index: 500;
+}
+.mainWrapper{
+    display: flex;
+    max-width: 85vw;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    
+}

@@ -1,0 +1,36 @@
+.Project {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 97vw;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 200px;
+    gap: 35px;
+    overflow: hidden;
+}
+
+.Project h1 {
+    font-size: 3em;
+    letter-spacing: 8px;
+    
+}
+.line{
+    width: 94vw;
+    border-bottom: .5px solid white;
+    opacity: 0.5;
+}
+
+.skew {
+    margin-top: 30vh;
+    background-color: white;
+    height: 400px;
+    width:100%;
+    position: absolute;
+    transform: skewY(-8deg);
+    margin-left: 5vw;
+    opacity: .14;
+}
+

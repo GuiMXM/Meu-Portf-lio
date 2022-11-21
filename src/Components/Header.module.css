@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    position: sticky;
+    margin-top: 15px;
+    justify-content: space-between;
+    justify-items: space-between;
+    align-items: flex-start;
+    z-index: 20;
+    
+    
+    
+    
+}
+
+p {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 14px;
+    font-size: 14px;
+    
+}
+
+.Icon2{
+    margin-right:5px;
+    margin-left: 5px;
+    
+}
+
+
+
+.left_icons {
+    display: flex;
+    margin-left: 18vw;
+    position: fixed;
+    margin-top: 5px;
+    transition: .35s;
+    animation: leftAnimation 3.3s;   
+}
+
+
+.right_icons
+{
+    display: flex;
+    padding-top: 5px;
+    position: fixed;
+    margin-left: 75vw;
+    animation: rightAnimation 3.3s ; 
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+
+@keyframes leftAnimation {
+    0%{
+        opacity: 0;
+        transform: translate(-200px);
+    }
+    65%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+@keyframes rightAnimation {
+    0%{
+        opacity: 0;
+        transform: translate(200px);
+    }
+    65%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}

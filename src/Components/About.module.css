@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap');
+
+.about_wrapper {
+    display: flex;
+    height: 95vh;
+    width: 98vw;
+    color: white;
+    margin-bottom: 50px;
+    animation: aboutAnimation 3s;
+    z-index: 50;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+   
+}
+
+.about_wrapper h1 {
+    letter-spacing: 10.5px;
+    font-size: 1.6em;
+}
+
+.about_wrapper p {
+    justify-content: justify;
+    line-height: 1.5rem;
+    text-align: justify;
+    height: 345px;
+    width: 470px;
+    font-family: 'Inter Tight', sans-serif;
+    margin-top: 50px;
+    border-left: 0.5px solid white;
+    padding-left: 8px;
+    text-transform:initial;
+    font-size: 1.05em;
+}  
+
+
+
+.text_wrapper{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    
+}
+
+
+@keyframes aboutAnimation {
+    0%{
+        opacity: 0;
+    
+    }
+    90%{
+        opacity: 0;
+    
+    }
+    100%{
+        display: flex;
+    }
+}
+

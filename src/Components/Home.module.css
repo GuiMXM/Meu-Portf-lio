@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+
+.Home_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: #FFF;
+    height: 100vh;
+    text-decoration: none;
+    z-index: -1;
+    
+    
+}
+.circle h1 {
+    
+    animation: typeAnimation 2.5s;
+    position: absolute;
+    letter-spacing: 4.2px;
+    justify-content: center;
+    text-align: center;
+    line-height: 2em;
+    max-width: 600px;
+    z-index: 2;
+    border-bottom: 0.5px solid rgb(105, 94, 94);
+    margin-left: 13px;
+}
+
+
+
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: 0.7px solid rgb(216, 211, 247);
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    
+    animation: pingAnimation 2.3s ease-in-out;
+
+}
+
+.circle p {
+    
+    color: rgb(91, 98, 104);
+    margin-top: 140px;
+    letter-spacing: 4.5px;
+    font-weight: bold;
+    animation: optionsAnimation 3.3s;
+    transition: .3s;
+    cursor: pointer;
+    padding: 1px;
+    font-size: 15px;
+    
+}
+
+.circle p:nth-child(3){
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.circle p:hover{
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+@keyframes pingAnimation {
+    0%{
+        opacity: 0;
+        border-color: rgb(66, 63, 63);
+        width: 800px;
+        height: 800px;
+    }
+    15%{
+        opacity: 0.7;
+        
+    }
+    55%{
+        opacity: .55;
+        width: 1500px;
+        height: 1500px;
+        border-color: rgb(247, 244, 244);
+    }
+    
+    
+    75%{
+        opacity: .55;
+        width: 650px;
+        height: 650px;
+    }
+    100%{
+        opacity: 1;
+        border-color: rgb(159, 149, 214);
+        width: 400px;
+        height: 400px;
+    }    
+
+}
+
+
+
+@keyframes typeAnimation {
+    0%{
+        opacity: 0;
+        border-bottom: none;
+    }
+    5%{
+        opacity: 0;
+        border-bottom: none;
+    }
+    55%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes optionsAnimation {
+    0%{
+        opacity: 0%;
+    }
+    65%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+    
+}
+
+
